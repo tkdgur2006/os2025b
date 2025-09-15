@@ -1,3 +1,6 @@
+리눅스 명령어
+history | less
+
 git fetch
 git pull
 
