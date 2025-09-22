@@ -1,0 +1,27 @@
+https://headfirstgo.com/
+소스 코드
+
+컨트롤 시프트 P
+Go:install updat
+
+>Terminal: Select Def
+
+go mod init
+
+
+
+.gitignore 파일 만들고
+파일 안에 *.exe 치고
+reset 후에 add . 을 하면 exe 파일을 무시함
+
+
+리눅스 명령어
+cp 파일이름1 파일이름2 : 파일1을 파일2로 복사 붙여넣기
+
+Go 명령어
+go mod init 프로젝트폴더명
+go run 파일명.go
+go build 파일명.go
+
+기타
+.gitignore 파일 생성 (*.exe) : 이 파일을 깃에서 관리x
