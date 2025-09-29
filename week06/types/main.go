@@ -6,19 +6,16 @@ import (
 )
 
 func main() {
-	/* 같은 의미
-	var name string = "Kim inha"
-	var id int = 1000
+	//Zero values
+	var f64 float64
+	var i16 int16
+	var t bool
+	var s string
+	var i int
 
-	fmt.Println(name, reflect.TypeOf(name))
-	fmt.Println(id, reflect.TypeOf(id))
-	*/
-	var gpa float32 = 3.99 // 원하는 타입으로 만들수 있음 (메모리 절약)
-	name := "Kim inha"
-	id := 1000
-	//gpa := 3.99 double 로 선언됨 (쓸대없이 큰 메모리 차지함)
-
-	fmt.Println(name, reflect.TypeOf(name))
-	fmt.Println(id, reflect.TypeOf(id))
-	fmt.Println(gpa, reflect.TypeOf(gpa))
+	fmt.Println(f64, reflect.TypeOf(f64))
+	fmt.Println(i16, reflect.TypeOf(i16))
+	fmt.Println(t, reflect.TypeOf(t))
+	fmt.Println(s, reflect.TypeOf(s))
+	fmt.Println(i, reflect.TypeOf(i))
 }
