@@ -1,30 +1,28 @@
 package main
 
-import (
-	"bufio"
-	"fmt"
-	"log"
-	"os"
-)
-
 /*
 func main() {
-    var now time.Time = time.Now()
-    var day int = now.Day()
-    fmt.Println(day)
+	//shadowing
+	i, err := bufio.NewReader(os.Stdin)
+	if err != nil {
+		log.Fatal(err)
 
+	i = strings.TrimSpace(i)
+	score, err := strconv.ParseFloat(i, 64)
+	if err != nil {
+		log.Fatal(err)
+	}
 
-    univ := "Go$ Inha$"
-    chager := strings.NewReplacer("$", "!")
-    fixed := chager.Replace(univ)
-    fmt.Println(fixed)
-}
+	var status string
+	if score >= 60 {
+		status = "passing"
+	} else {
+		status = "Fail"
+	}
+
+	fmt.Println(status)
+	}
 */
-
 func main() {
-	r := bufio.NewReader(os.Stdin)
-	i, err := r.ReadString('\n')
-	//fmt.Println(err)
-	log.Fatal(err)
-	fmt.Println(i)
+
 }
