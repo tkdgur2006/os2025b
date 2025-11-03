@@ -2,17 +2,11 @@ package main
 
 import (
 	"fmt"
-	"reflect"
 )
 
 func main() {
-	arrayBool := [3]bool{true, false, true}
-	arrayInt := [3]int{-9, 11, 7}
-	for i := 0; i < 3; i++ {
-		fmt.Println(i, arrayBool[i])
-		fmt.Println(i, arrayInt[i])
+	numbers := [3]int{-9, 11, 7}
+	for i, numbers := range numbers {
+		fmt.Println(i, numbers)
 	}
-	fmt.Printf("%#v\n", arrayBool)
-	fmt.Printf("%#v\n", arrayInt)
-	fmt.Println(reflect.TypeOf(arrayInt))
 }
