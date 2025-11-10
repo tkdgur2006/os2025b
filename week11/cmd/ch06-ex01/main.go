@@ -3,15 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	/*
-		var subject []string
-		subject = make([]string, 3)
-		subject[0] = "Go"
-		subject[2] = "Python"
-	*/
-	subject := []string{"Go", "", "Python"}
-
-	for _, subject := range subject {
-		fmt.Println(subject)
+	subjects := []string{"Go", "Javascript", "Python", "Linux"}
+	subjectsSlice := subjects[1:3]
+	for _, subjects := range subjects {
+		fmt.Println(subjects)
+	}
+	fmt.Println("===========")
+	for i := 0; i < len(subjectsSlice); i++ {
+		fmt.Println(subjectsSlice)
 	}
 }
